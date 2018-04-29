@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css?family=Orbitron:500');
+
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+html {
+  box-sizing: border-box;
+  height: 100%;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+  margin: 0;
+  padding: 0;
+}
+
+/*****************************
+********************* GENERAL
+*****************************/
+
+body {
+  background: black;
+  font-family: 'Orbitron', sans-serif;
+  font-size: 3rem;
+  color: red;
+  height: 100%;
+  display: flex;
+}
+
+.container {
+  margin: auto;
+}
+
+.countdown__label {
+  font-size: 1rem;
+}
